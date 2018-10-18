@@ -1,6 +1,6 @@
 {
   "name": "@ax2/multisite-module",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Multisite features for your Nuxt project",
   "license": "MIT",
   "contributors": [
