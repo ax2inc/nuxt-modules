@@ -1,0 +1,38 @@
+{
+  "name": "@ax2/dayjs-module",
+  "version": "0.1.0",
+  "description": "Day.js integration for Nuxt",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Paul Gascou-Vaillancourt <paul@ax2.ca>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/ax2inc/nuxt-modules",
+  "homepage": "https://github.com/ax2inc/nuxt-modules/tree/master/packages/dayjs#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "dayjs": "^1.7.5"
+  },
+  "devDependencies": {
+    "codecov": "latest",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "jest": "^23.6.0",
+    "jsdom": "latest",
+    "nuxt": "^2.2.0",
+    "request-promise-native": "^1.0.5",
+    "standard-version": "latest"
+  },
+  "gitHead": "db930bf38f5eec5696ad7978a68656436831fc59"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@ax2/multisite-module",
+  "version": "0.2.0",
+  "description": "Multisite features for your Nuxt project",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Paul Gascou-Vaillancourt <paul@ax2.ca>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/ax2inc/nuxt-modules",
+  "homepage": "https://github.com/ax2inc/nuxt-modules/tree/master/packages/multisite#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "deepmerge": "^2.1.1",
+    "js-cookie": "^2.2.0"
+  },
+  "devDependencies": {
+    "codecov": "latest",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "jest": "latest",
+    "jsdom": "latest",
+    "nuxt": "^2.2.0",
+    "request-promise-native": "^1.0.5",
+    "standard-version": "latest"
+  },
+  "gitHead": "db930bf38f5eec5696ad7978a68656436831fc59"
+}

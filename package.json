@@ -1,0 +1,21 @@
+{
+  "name": "@ax2/nuxt-modules",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  },
+  "scripts": {
+    "eslint": "eslint packages/**/lib packages/**/test",
+    "test": "jest",
+    "release": "lerna publish"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
+  "eslintIgnore": [
+    "packages/**/lib/templates/*.*"
+  ],
+  "workspaces": ["packages/*"]
+}

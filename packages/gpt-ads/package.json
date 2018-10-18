@@ -1,0 +1,35 @@
+{
+  "name": "@ax2/gpt-ads-module",
+  "version": "0.5.1",
+  "description": "Google Publisher Tag ads integration for Nuxt",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Paul Gascou-Vaillancourt <paul@ax2.ca>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/ax2inc/nuxt-modules",
+  "homepage": "https://github.com/ax2inc/nuxt-modules/tree/master/packages/gpt-ads#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "codecov": "latest",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.24.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "jest": "^23.6.0",
+    "jsdom": "^12.2.0",
+    "nuxt": "^2.2.0",
+    "request-promise-native": "^1.0.5",
+    "standard-version": "latest"
+  },
+  "gitHead": "db930bf38f5eec5696ad7978a68656436831fc59"
+}

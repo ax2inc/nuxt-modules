@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "conventionalCommits": true,
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "npmClient": "npm"
+    }
+  },
+  "ignoreChanges": [
+    "**/test/**",
+    "**/*.md"
+  ]
+}
