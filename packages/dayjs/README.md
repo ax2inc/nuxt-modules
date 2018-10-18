@@ -66,6 +66,6 @@ At the moment, all the module does is inject Day.js into Vue instances so you ca
 
 ## License
 
-[MIT License](./LICENSE)
+[MIT License](../../LICENSE)
 
 Copyright (c) Ax2 Inc.

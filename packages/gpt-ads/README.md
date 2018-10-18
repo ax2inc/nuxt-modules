@@ -189,6 +189,6 @@ Equivalent:
 
 ## License
 
-[MIT License](./LICENSE)
+[MIT License](../../LICENSE)
 
 Copyright (c) Ax2 Inc.

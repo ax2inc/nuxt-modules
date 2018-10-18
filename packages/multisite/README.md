@@ -178,6 +178,6 @@ Get an asset's path for given site. If no site is specified, defaults to active 
 
 ## License
 
-[MIT License](./LICENSE)
+[MIT License](../../LICENSE)
 
 Copyright (c) Ax2 Inc.
