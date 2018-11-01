@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.3](https://github.com/ax2inc/nuxt-modules/compare/@ax2/gpt-ads-module@0.5.2...@ax2/gpt-ads-module@0.5.3) (2018-11-01)
+
+
+### Bug Fixes
+
+* Test window.googletag rather than googletag, prevents an error in SPA mode ([38699d7](https://github.com/ax2inc/nuxt-modules/commit/38699d7))
+
+
+
+
+
 ## 0.5.2 (2018-10-18)
 
 **Note:** Version bump only for package @ax2/gpt-ads-module
