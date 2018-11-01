@@ -162,7 +162,7 @@ export default {
     },
   },
   mounted() {
-    if (!googletag) {
+    if (!window.googletag) {
       return;
     }
     const {
