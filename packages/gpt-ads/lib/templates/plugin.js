@@ -63,6 +63,5 @@ export default async function (ctx, inject) {
   const component = require('./component.js');
   Vue.component('<%= options.componentName %>', component.default || component);
 
-  ctx.$gptAds = gptAdsOptions;
   inject('gptAds', gptAdsOptions);
 }
