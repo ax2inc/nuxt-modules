@@ -8,7 +8,6 @@ export default async function (ctx, inject) {
       <%= JSON.stringify(options.observer) %>
     ]
     const observer = lozad(...lozadOptions);
-    ctx.$lozad = observer;
     inject('lozad', observer);
   }
 };
