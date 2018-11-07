@@ -97,6 +97,5 @@ export default (ctx, inject) => {
     return `/${site}/${path}`;
   };
 
-  ctx.$multisite = multisiteOptions;
   inject('multisite', multisiteOptions);
 };
