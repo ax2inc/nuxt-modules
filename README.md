@@ -14,6 +14,10 @@
     <img alt="Codecov Status" src="https://img.shields.io/codecov/c/github/ax2inc/nuxt-modules.svg?style=flat-square">
 </a>
 
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fax2inc%2Fnuxt-modules?ref=badge_shield" alt="FOSSA Status">
+    <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fax2inc%2Fnuxt-modules.svg?type=shield"/>
+</a>
+
 </p>
 
 <p align="center">
