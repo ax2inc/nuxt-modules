@@ -2,7 +2,7 @@
   "name": "@ax2/nuxt-modules",
   "private": true,
   "devDependencies": {
-    "lerna": "3.4.3"
+    "lerna": "3.10.8"
   },
   "scripts": {
     "eslint": "eslint packages/**/lib packages/**/test",
