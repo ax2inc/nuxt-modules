@@ -88,7 +88,7 @@ export default (ctx, inject) => {
 
   // Meta
   if (typeof currentSite.head !== 'undefined') {
-    ctx.app.head = merge(ctx.app.head, currentSite.head);
+    ctx.app.head = deepmerge(ctx.app.head, currentSite.head);
   }
 
   // Assets helper
