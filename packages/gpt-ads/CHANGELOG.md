@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/ax2inc/nuxt-modules/compare/@ax2/gpt-ads-module@0.5.3...@ax2/gpt-ads-module@0.6.0) (2019-03-15)
+
+
+### Features
+
+* Toggle class on ads slots when they become empty ([a3863f1](https://github.com/ax2inc/nuxt-modules/commit/a3863f1))
+
+
+
+
+
 ## [0.5.3](https://github.com/ax2inc/nuxt-modules/compare/@ax2/gpt-ads-module@0.5.2...@ax2/gpt-ads-module@0.5.3) (2018-11-01)
 
 

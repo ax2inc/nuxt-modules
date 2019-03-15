@@ -1,6 +1,6 @@
 {
   "name": "@ax2/dayjs-module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Day.js integration for Nuxt",
   "license": "MIT",
   "contributors": [
