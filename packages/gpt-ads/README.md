@@ -95,6 +95,13 @@ Set to `true` to have empty ad slots collapsed themselves, this can be overridde
 
 Set to `true` to enable ghost mode. With ghost mode enabled, ad slots aren't displayed and are replaced by empty bordered divs of the size the ads would have if they were displayed. This is useful during development where you might not want to display real ads.
 
+### emptyClass
+
+- **Type**: `String`
+- **Default**: `'is-empty'`
+
+Class to apply to empty ads slots.
+
 ## Usage
 
 When the module is enabled, it registers a global Vue component that you can use to display ads in your app. By default, the component's name is **GptAd** but this can be changed via the `componentName` option.
