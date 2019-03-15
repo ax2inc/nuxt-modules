@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie';
 import cookie from 'cookie';
-import * as deepmerge from 'deepmerge';
+import deepmerge from 'deepmerge';
 
 export default (ctx, inject) => {
   const {
