@@ -6,6 +6,7 @@ export default {
     currentSizeMappingIndex: null,
     windowResizeListenerDebounce: null,
     ghostMode: <%= options.ghostMode %>,
+    isEmpty: true,
   }),
   props: {
     adUnit: {
@@ -121,6 +122,12 @@ export default {
     refreshSlot() {
       googletag.pubads().refresh([this.adSlot]);
     },
+    handleSlotRenderEnded (event) {
+      if (event.slot.getSlotId().getDomId() !== this.divId) {
+        return;
+      }
+      this.isEmpty = !!event.isEmpty;
+    },
     /**
      * Window resize event listener
      * Attached only when responsive mode is enabled, it checks wether a different size
@@ -174,11 +181,15 @@ export default {
       collapseEmptyDiv,
     } = this;
 
+
     // Init Ad slot
     googletag.cmd.push(() => {
+      const pubadsService = googletag.pubads()
+      pubadsService.addEventListener('slotRenderEnded', this.handleSlotRenderEnded);
+
       const adSlot = googletag
         .defineSlot(adUnitPath, this.formattedSize, divId)
-        .addService(googletag.pubads());
+        .addService(pubadsService);
 
       // Collapse empty div slot-level override
       if (collapseEmptyDiv !== null) {
@@ -227,12 +238,14 @@ export default {
     window.removeEventListener('resize', this.handleWindowResize);
   },
   render(h) {
-    const { divId, style } = this;
+    const { divId, style, isEmpty } = this;
+    let classAttr = isEmpty ? '<%= options.emptyClass %>' : '';
 
     return h('div', {
       style,
       attrs: {
         id: divId,
+        class: classAttr,
       },
       domProps: { innerHTML: '' },
     });

@@ -6,6 +6,7 @@ export const DEFAULT_OPTIONS = {
   individualRefresh: false,
   responsive: false,
   collapseEmptyDivs: false,
+  emptyClass: 'is-empty',
 };
 
 export const GPT_LIB_SCRIPT_ID = 'google-publisher-tag-lib-script';
