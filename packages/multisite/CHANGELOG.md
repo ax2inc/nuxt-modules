@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/ax2inc/nuxt-modules/compare/@ax2/multisite-module@0.2.3...@ax2/multisite-module@0.2.4) (2019-03-15)
+
+
+### Bug Fixes
+
+* Fix deepmerge call ([b612143](https://github.com/ax2inc/nuxt-modules/commit/b612143))
+
+
+
+
+
 ## [0.2.3](https://github.com/ax2inc/nuxt-modules/compare/@ax2/multisite-module@0.2.2...@ax2/multisite-module@0.2.3) (2019-03-15)
 
 
