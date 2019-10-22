@@ -70,20 +70,22 @@ export default (ctx, inject) => {
   multisiteOptions.site = currentSite;
 
   // CSS vars
-  const getComputedCssVars = (cssVars) => {
-    const style = Object.keys(cssVars).map(key => `${key}:${cssVars[key]}`);
-    return `:root{${style.join(';')}}`;
-  };
-  const headStyle = {
-    id: CSS_VARS_STYLE_ID,
-    type: 'text/css',
-    innerHTML: getComputedCssVars(currentSite.cssVars),
-  };
-  const styleIndex = ctx.app.head.style.findIndex(style => style.id === CSS_VARS_STYLE_ID);
-  if (styleIndex !== -1) {
-    ctx.app.head.style[styleIndex] = headStyle;
-  } else {
-    ctx.app.head.style.push(headStyle);
+  if (typeof currentSite.cssVars !== 'undefined') {
+    const getComputedCssVars = (cssVars) => {
+      const style = Object.keys(cssVars).map(key => `${key}:${cssVars[key]}`);
+      return `:root{${style.join(';')}}`;
+    };
+    const headStyle = {
+      id: CSS_VARS_STYLE_ID,
+      type: 'text/css',
+      innerHTML: getComputedCssVars(currentSite.cssVars),
+    };
+    const styleIndex = ctx.app.head.style.findIndex(style => style.id === CSS_VARS_STYLE_ID);
+    if (styleIndex !== -1) {
+      ctx.app.head.style[styleIndex] = headStyle;
+    } else {
+      ctx.app.head.style.push(headStyle);
+    }
   }
 
   // Meta
