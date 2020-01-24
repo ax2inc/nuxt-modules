@@ -31,13 +31,13 @@ export default async function (ctx, inject) {
   // Inject GPT lib
   const gptLibScript = {
     id: GPT_LIB_SCRIPT_ID,
-    src: 'https://www.googletagservices.com/tag/js/gpt.js',
+    src: 'https://securepubads.g.doubleclick.net/tag/js/gpt.js',
     async: true,
   };
   injectScript(gptLibScript);
 
   // Inject GPT init script
-  let gptInitScriptHtml = 'var googletag = googletag || {};googletag.cmd = googletag.cmd || [];';
+  let gptInitScriptHtml = 'window.googletag = window.googletag || {cmd: []};';
   if (debug) {
     gptInitScriptHtml += 'googletag.cmd.push(function(){googletag.openConsole();});';
   }
