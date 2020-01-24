@@ -42,6 +42,11 @@ export default {
       required: false,
       default: null,
     },
+    refreshOnRouteChange: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
   },
   computed: {
     networkCode() {
@@ -168,6 +173,15 @@ export default {
       return index;
     },
   },
+
+  watch: {
+    '$route.path': function() {
+      if (this.refreshOnRouteChange) {
+        this.refreshSlot();
+      }
+    }
+  },
+
   mounted() {
     if (!window.googletag) {
       return;
