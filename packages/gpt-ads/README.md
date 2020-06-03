@@ -153,6 +153,11 @@ Debounce duration between each window resize handling.
 
 Override `collapseEmptyDivs` option at the slot's level.
 
+#### refreshOnRouteChange
+
+- Type: `Boolean`
+- Default: `false`
+
 ### Examples
 
 
