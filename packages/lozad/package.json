@@ -18,20 +18,20 @@
     "lib"
   ],
   "dependencies": {
-    "intersection-observer": "^0.5.0",
-    "lozad": "^1.6.0"
+    "intersection-observer": "^0.10.0",
+    "lozad": "^1.15.0"
   },
   "devDependencies": {
     "codecov": "latest",
-    "eslint": "5.13.0",
-    "eslint-config-airbnb-base": "13.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
     "eslint-loader": "2.1.2",
-    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-import": "2.20.1",
     "eslint-plugin-jest": "22.3.0",
-    "eslint-plugin-vue": "5.2.1",
-    "jest": "24.1.0",
-    "jsdom": "latest",
-    "nuxt": "2.4.3",
+    "eslint-plugin-vue": "6.2.2",
+    "jest": "26.0.1",
+    "jsdom": "16.2.2",
+    "nuxt": "2.12.2",
     "request-promise-native": "1.0.5",
     "standard-version": "latest"
   },
