@@ -1,6 +1,6 @@
 {
   "name": "@ax2/lozad-module",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Lozad integration for Nuxt",
   "license": "MIT",
   "contributors": [
