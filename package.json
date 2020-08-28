@@ -17,5 +17,7 @@
   "eslintIgnore": [
     "packages/**/lib/templates/*.*"
   ],
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ]
 }

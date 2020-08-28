@@ -42,6 +42,11 @@ export default {
       required: false,
       default: null,
     },
+    target: {
+      type: String,
+      required: false,
+      default: null,
+    }
   },
   computed: {
     networkCode() {
@@ -189,6 +194,7 @@ export default {
 
       const adSlot = googletag
         .defineSlot(adUnitPath, this.formattedSize, divId)
+        .setTargeting('pos', [this.target])
         .addService(pubadsService);
 
       // Collapse empty div slot-level override
