@@ -28,7 +28,7 @@
     "eslint-loader": "2.1.2",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-jest": "22.3.0",
-    "eslint-plugin-vue": "6.2.2",
+    "eslint-plugin-vue": "7.11.1",
     "jest": "26.0.1",
     "jsdom": "16.2.2",
     "nuxt": "2.12.2",
