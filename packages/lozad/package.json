@@ -30,7 +30,7 @@
     "eslint-plugin-jest": "22.3.0",
     "eslint-plugin-vue": "6.2.2",
     "jest": "26.0.1",
-    "jsdom": "16.2.2",
+    "jsdom": "21.1.1",
     "nuxt": "2.12.2",
     "request-promise-native": "1.0.5",
     "standard-version": "latest"
