@@ -19,7 +19,7 @@
   ],
   "devDependencies": {
     "codecov": "latest",
-    "eslint": "5.13.0",
+    "eslint": "8.57.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-loader": "2.1.2",
     "eslint-plugin-import": "2.16.0",
