@@ -28,7 +28,7 @@
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-loader": "2.1.2",
     "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-jest": "22.3.0",
+    "eslint-plugin-jest": "28.8.3",
     "eslint-plugin-vue": "5.2.1",
     "jest": "latest",
     "jsdom": "latest",
